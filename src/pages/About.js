@@ -12,7 +12,6 @@ function About() {
 
 		// turn response into javascript object
     const data = await response.json();
-   console.log(data)
 		// set the about state to the data
     setAbout(data);
   };
