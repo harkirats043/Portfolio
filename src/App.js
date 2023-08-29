@@ -4,6 +4,7 @@ import './App.css';
 //  Import components
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import AboutMe from './components/AboutMe';
 import {Route, Routes} from "react-router-dom";
 
 // Import Pages
