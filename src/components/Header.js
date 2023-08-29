@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import { Link, redirect } from "react-router-dom";
+import "./Header";
 
 function Header() {
   const navStyle = {

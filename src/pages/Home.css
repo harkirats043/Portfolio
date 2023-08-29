@@ -1,12 +1,26 @@
-/* MyComponent.css */
 .homepage-container {
-    text-align: center; /* Center align the content */
+    text-align: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.homepage-image img {
+    position:cover;
   }
-  
-  .homepage-image {
+
+
+.homepage-content {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    margin-top: 15.3%;
     height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
