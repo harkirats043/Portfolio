@@ -1,3 +1,11 @@
+.head-container{
+background-color: rgba(140, 161, 108, 0.185);
+margin-top: 0%;
+padding-top: 0%;
+font-size: larger;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .glow-on-hover {
     width: 150px;
     height: 35px;

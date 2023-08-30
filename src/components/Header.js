@@ -12,7 +12,7 @@ function Header() {
   };
 
   return (
-    <header>
+    <header className="head-container">
       <h1>My Portfolio Page</h1>
       <nav style={navStyle}>
         <Link to="/">
