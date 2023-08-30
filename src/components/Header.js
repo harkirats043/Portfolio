@@ -1,5 +1,5 @@
 import { Link, redirect } from "react-router-dom";
-import "./Header";
+import "./Header.css";
 
 function Header() {
   const navStyle = {
@@ -16,13 +16,13 @@ function Header() {
       <h1>My Portfolio Page</h1>
       <nav style={navStyle}>
         <Link to="/">
-          <div>HOME</div>
+          <div className="glow-on-hover" type="button">HOME</div>
         </Link>
-        <Link to="/about">
-          <div>ABOUT</div>
+        <Link to="/about" >
+          <div className="glow-on-hover" type="button">ABOUT</div>
         </Link>
         <Link to="/projects">
-          <div>PROJECTS</div>
+          <div className="glow-on-hover" type="button">PROJECTS</div>
         </Link>
       </nav>
     </header>
