@@ -1,0 +1,14 @@
+.about-page{
+    background-color: rgb(162, 158, 167);
+    height: 100vh;
+    margin-top: -10.8vh;
+}
+.profile {
+    width: 230px; /* Adjust the width as needed */
+    height: 250px; /* Adjust the height as needed */
+    border-radius: 30%;
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+    border: 3px solid #fff; /* White border around the image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
