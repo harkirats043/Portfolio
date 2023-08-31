@@ -13,7 +13,7 @@ function Header() {
 
   return (
     <header className="head-container">
-      <h1>My Portfolio Page</h1>
+      <h1>-  Harkirat Singh  - </h1>
       <nav style={navStyle}>
         <Link to="/">
           <div className="glow-on-hover" type="button">HOME</div>
