@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d5d5d5;
+}
+
+.project-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(164, 147, 147);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 120%;
+    height: 22rem;
+    border:2px solid rgb(161, 109, 109);
+    border-radius: 4%;
+}
+
+.project-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.project-button {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    justify-content: start;
+}
+
+.project-button:hover {
+    background-color: #26303a;
+}

@@ -37,7 +37,6 @@
     text-align: relative;
     overflow: hidden;
     height: 100vh;
-    background-color: red;
 }
 
 .homepage-image img {
@@ -60,7 +59,6 @@
     color: white;
     text-align: center;
     padding: 20px;
-    background-color: red;
     background-image: url("./images/diego-ph-fIq0tET6llw-unsplash.jpg");
     position: fixed;
 }
