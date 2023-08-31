@@ -29,8 +29,14 @@ function About() {
       <p><a href={`mailto:${about.email}`}>{about.email}</a></p>
       <p>
       <a href={about.linkedin}>
-        <i className="fab fa-linkedin"></i>
+        <i className="linkedin"></i>
         LinkedIn
+      </a>
+    </p>
+    <p>
+      <a href={about.github}>
+        <i className="Git-Hub"></i>
+        Git Hub
       </a>
     </p>
       <p className="paragraph p-animation">{about.bio}</p>
