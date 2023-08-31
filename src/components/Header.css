@@ -2,8 +2,8 @@
 background-color: rgba(140, 161, 108, 0.185);
 margin-top: 0%;
 padding-top: 0%;
-font-size: larger;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 2vh;
+font-family: 'Itim', cursive;
 height: 25vh;
 }
 
@@ -20,10 +20,10 @@ height: 25vh;
     border-radius: 10px;
     text-align: center;
     text-decoration: none;
-    font-family: cursive;
-    font-size: large;
-    padding-top: 6px;
-    padding-bottom: 2px;
+    font-family: 'Itim', cursive;
+    font-size: 2vh;
+    padding-top: 10px;
+    padding-bottom: -2px;
 }
 
 .glow-on-hover:before {
