@@ -26,8 +26,14 @@ function About() {
     <div className="about-page">
       <img className="profile" src={about.headshot} alt="Profile Picture" />
       <h2>{about.name}</h2>
-      <h3>{about.email}</h3>
-      <p className="paragraph">{about.bio}</p>
+      <p><a href={`mailto:${about.email}`}>{about.email}</a></p>
+      <p>
+      <a href={about.linkedin}>
+        <i className="fab fa-linkedin"></i>
+        LinkedIn
+      </a>
+    </p>
+      <p className="paragraph p-animation">{about.bio}</p>
     </div>
   );
 
