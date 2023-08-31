@@ -1,15 +1,15 @@
 [
     {
-      "name": "Trvia Game",
+      "name": "",
       "live": "https://harkirats043.github.io/Trivia-Game/",
-      "git": "",
-      "image": "http://www.imgur.com/pictureofproject.png"
+      "git":  "https://github.com/harkirats043/Trivia-Game",
+      "image": "https://imgur.com/er5V50U.png"
     },
     {
-      "name": "Mingo",
+      "name": "",
       "live": "https://mingo-b8899ae399d9.herokuapp.com/posts",
-      "git": "https://github.com/LSmith97/Portfolio",
-      "image": "http://www.imgur.com/pictureofproject.png"
+      "git": "https://github.com/LSmith97/Mingo",
+      "image":"https://imgur.com/g6HAR8r.png"
     }
   ]
   
